@@ -1,0 +1,124 @@
+.formWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  background-color: white;
+  width: 778px;
+  padding: 32px 38px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(234, 234, 234);
+}
+.formWrapper h2 {
+  color: var(--Dark, #2a2941);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+  margin-bottom: 14px;
+}
+
+.formWrapper > p {
+  color: var(--30-black, #b3b3b3);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-weight: 450;
+  line-height: 130%; /* 20.8px */
+}
+
+.formImgAndText {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.formImgAndText > p {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.linkImages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.linkImg {
+  padding: 18px;
+  cursor: pointer;
+  border-radius: 14px;
+  border: 2px solid lightgray;
+}
+.selectRegion {
+  width: 350px;
+  border: 2px solid rgb(223, 215, 215);
+  outline: none;
+  padding: 18px;
+  border-radius: 15px;
+}
+.formSelectFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.textarea {
+  resize: none;
+  width: 100%;
+  border: 2px solid rgb(229, 218, 218);
+  outline: none;
+  border-radius: 18px;
+  padding: 18px;
+}
+.buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.buttons button:first-child {
+  color: var(--Gray, #6e6d77);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 2px solid lightcyan;
+  border-radius: 16px;
+  background: #f8f8f8;
+}
+
+.buttons button:last-child {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+  padding: 16px 24px;
+  border-color: transparent;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 16px;
+  transition: all 0.5s linear;
+  background: var(--Mai, #5361e4);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.buttons button:last-child:hover {
+  color: #5361e4;
+  background-color: white;
+  border-color:#5361e4
+}

@@ -1,0 +1,31 @@
+.fromLabel {
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight:600;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: normal;
+  width: 100%;
+
+}
+.fromLabel span{
+    font-weight: bolder;
+    font-size: 25px;
+    color:red;
+}
+.form{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+.formInput{
+    padding: 18px;
+    width: 100%;
+    border-radius: 16px;
+    outline: none;
+    border: 2px solid lightgray;
+}
